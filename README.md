@@ -42,7 +42,7 @@ foreach ($datePeriods as $datePeriod) {
     echo $datePeriod->start->format('Y-m-d') . ' - ' . $datePeriod->end->format('Y-m-d') . PHP_EOL;
 }
 ```
-will results in:
+will output:
 ```
 2018-09-02 - 2018-09-04
 2018-09-08 - 2018-09-08
